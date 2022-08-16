@@ -47,7 +47,7 @@
                             <a class="nav-link" href="{{ route('home') }}">la maison</a>
                         </li>
                         <li class="nav-item text-uppercase">
-                            <a class="nav-link" href="{{ route('login') }}">à propos de nous</a>
+                            <a class="nav-link" href="{{ url('about-us')}}">à propos de nous</a>
                         </li>
                         <li class="nav-item dropdown text-uppercase">
                             <a id="navbarDropdown" class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false" v-pre>
